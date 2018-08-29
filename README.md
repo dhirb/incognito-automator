@@ -67,9 +67,13 @@ card_name:
 
 Older Python versions may work.
 
+## Disclaimer
+
+This script serves as a tool to assist in searching for best credit card sign up offers, it does not guarantee any successful search for offers, public or otherwise. 
+
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
 
 ## Acknowledgments
 

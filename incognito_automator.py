@@ -25,7 +25,7 @@ class IncognitoAutomator():
 			print('Config file is missing. Please download it from the source.')
 			exit(1)
 
-		# Set up Selenium browser option
+		# Set up Selenium browser
 		if browser_choice == 'chrome':
 			chrome_options = ChromeOptions()
 			chrome_options.add_argument('--incognito')
