@@ -1,0 +1,10 @@
+prg:
+  url: https://www.americanexpress.com/us/credit-cards/card/premier-rewards-gold/
+  search_term: 50,000
+green:
+  url: https://www.americanexpress.com/us/credit-cards/card/green/
+  search_term: Special Offer For You
+plat:
+  url: https://www.americanexpress.com/us/credit-cards/card/platinum/
+  search_term: 100,000
+wait: 10
