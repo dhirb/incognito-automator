@@ -41,14 +41,16 @@ Optional. Specify which browser to use. Default: Google Chrome.
 ##### `-n` or `--attempt`
 Optional. Specify number of attempts to find best offer before giving up. Default: 20.
 
-
 ### Supported credit cards (US only)
 
-* American Express Platinum
-* American Express Premier Rewards Gold
-* American Express Green
+Parentheses indicate the highest sign up offer seen so far.
 
-Alternatively, you can add the URL and the search term for more credit cards in `config.yml` using the following syntax:
+* American Express Platinum (100,000 Membership Rewards points)
+* American Express Premier Rewards Gold (65,000 Membership Rewards points)
+* American Express Green (25,000 Membership Rewards points)
+* American Express EveryDay (25,000 Membership Rewards points)
+
+To add a credit card that is missing from this list, simply add the URL and the search term in `config.yml` using the following syntax:
 ```yaml
 card_name:
   url: URL_of_the_credit_card_page
@@ -57,19 +59,21 @@ card_name:
 
 ### Supported browsers
 
-* Google Chrome
-* Mozilla Firefox
+* Google Chrome 64-bit (68.0.3440.106)
+* Mozilla Firefox 64-bit (61.0.2)
 
-### Tested with
+Older browser versions will likely work but they are untested.
+
+### Supported Python versions
 
 * Python 2.7.15
 * Python 3.7.0
 
-Older Python versions may work.
+Older Python versions may work but they are untested.
 
 ## Disclaimer
 
-This script serves as a tool to assist in searching for best credit card sign up offers, it does not guarantee any successful search for offers, public or otherwise. 
+Due to the nature of "incognito offers", this script cannot and does not guarantee to find any offers.
 
 ## License
 
