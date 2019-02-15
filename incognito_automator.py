@@ -8,12 +8,12 @@ import yaml
 import argparse
 
 
-class IncognitoAutomator():
+class IncognitoAutomator:
     def __init__(self, browser_choice, card_to_search):
         # Set up config file
         try:
             with open('config.yml', 'r') as config_file:
-                self.config = yaml.load(config_file)
+                self.config = yaml.safe_load(config_file)
 
             # Sanity check on card name
             self.url = self.config[card_to_search]['url']
